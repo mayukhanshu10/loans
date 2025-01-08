@@ -1,0 +1,15 @@
+server:
+  port: 8282
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/loanservice
+    #    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
